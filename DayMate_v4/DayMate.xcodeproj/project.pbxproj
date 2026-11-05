@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F6BCA97FA41A569AEA924E8 /* FocusTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA002FFC870C945A89DBCF7 /* FocusTimerView.swift */; };
+		1FDBB34378CEBFBEC18AAA5E /* MascotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2765B579F3032F757073C17B /* MascotView.swift */; };
+		2010D602C7533E209DB219B0 /* ExamDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5162DE4C9F203239C06AD /* ExamDetailView.swift */; };
+		25E17EE6BB5C2FCEE17749E8 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86E928F4BED668C04C52C2 /* RootView.swift */; };
+		2726E533FC8E9D1DAE88C797 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC49276422A6A465A1D519 /* Components.swift */; };
+		29750AD5396FF91861F17379 /* WelcomeBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F161D5246FB54F4D481657 /* WelcomeBackView.swift */; };
+		2C04508609E2DCB5CC199643 /* MoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBC2BB3E2E0D3025B540A87 /* MoodView.swift */; };
+		2C548C0F3098A79E00AB28F0 /* DMSectionBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C548C0E3098A79E00AB28F0 /* DMSectionBar.swift */; };
+		2E8935115442A7001E95B5CD /* NewExamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A2D6D9DE67C72746087106 /* NewExamView.swift */; };
+		37161659C2192D6D1C6F48C4 /* BreakChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45BED31899CD5BC2BDB4624 /* BreakChoiceView.swift */; };
+		4E05EC7981C1E6BF27BB4BAC /* NewPlanItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33A0AEE742B44FC768A90CF /* NewPlanItemView.swift */; };
+		5F1500000000000000000011 /* WaterReminderPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1500000000000000000001 /* WaterReminderPreferences.swift */; };
+		5F1500000000000000000012 /* WaterReminderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1500000000000000000002 /* WaterReminderService.swift */; };
+		5F1500000000000000000013 /* WaterReminderSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1500000000000000000003 /* WaterReminderSettingsView.swift */; };
+		5F1500000000000000000014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1500000000000000000004 /* Assets.xcassets */; };
+		5F1600000000000000000011 /* PlannerCalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1600000000000000000001 /* PlannerCalendarViewModel.swift */; };
+		5F1600000000000000000012 /* WeekCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1600000000000000000002 /* WeekCalendarView.swift */; };
+		6D9214C0DD7D29B348AF9950 /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7412D25A823AC92C15E93F /* PlanView.swift */; };
+		6EAA90C92A6064D7345BAFC1 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE42D42518F0A029116FA04 /* TodayView.swift */; };
+		72F8A9E91D1F5177C6D16E29 /* BreakTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E596B9CECF15CFF9F89BD7 /* BreakTimerView.swift */; };
+		7307EDD87603DB9A98139933 /* DayTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0C4F3C62F55D40E743E2EE /* DayTask.swift */; };
+		8806DD60EFA7C171374738E8 /* DayMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A841283BC6F7BE04A6985C /* DayMateApp.swift */; };
+		B040B7B2322E7087A2C674D1 /* DayMateTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C7F55A6FD7ED449F9BC8FF /* DayMateTheme.swift */; };
+		B8D4B8D473B212EC56991B4D /* CountdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7D908C3680BD6355C1199C /* CountdownViewModel.swift */; };
+		CA4A263767C4D8CD923A3989 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E58718162C24B8B364CBC8 /* HomeView.swift */; };
+		E786912C817E069651DF956C /* DayMateRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E4EA248C5FC4E4798987F3 /* DayMateRepository.swift */; };
+		ED109286D26BFEEB64D3B327 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0704690101511762B084C222 /* Mood.swift */; };
+		F92B6F6AC9D28AC0CB6FF5D2 /* DayMateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFA4C096F1F4C50ADD26F8 /* DayMateStore.swift */; };
+		FA2508DCCB97D4A2460D04F1 /* StudyExam.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EE1F3FC0C4C10BCE67BB62 /* StudyExam.swift */; };
+		FFFAD398EE00E6B5A770A14C /* DayMateSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042123308517F8BB1B1487E3 /* DayMateSnapshot.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042123308517F8BB1B1487E3 /* DayMateSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayMateSnapshot.swift; sourceTree = "<group>"; };
+		0704690101511762B084C222 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		0DE42D42518F0A029116FA04 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		15E596B9CECF15CFF9F89BD7 /* BreakTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakTimerView.swift; sourceTree = "<group>"; };
+		1D7412D25A823AC92C15E93F /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
+		1EF91E9CE1841BED4FC15AEB /* DayMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A841283BC6F7BE04A6985C /* DayMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayMateApp.swift; sourceTree = "<group>"; };
+		2765B579F3032F757073C17B /* MascotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MascotView.swift; sourceTree = "<group>"; };
+		2C548C0E3098A79E00AB28F0 /* DMSectionBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMSectionBar.swift; sourceTree = "<group>"; };
+		4A7D908C3680BD6355C1199C /* CountdownViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownViewModel.swift; sourceTree = "<group>"; };
+		59E58718162C24B8B364CBC8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5F1500000000000000000001 /* WaterReminderPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterReminderPreferences.swift; sourceTree = "<group>"; };
+		5F1500000000000000000002 /* WaterReminderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterReminderService.swift; sourceTree = "<group>"; };
+		5F1500000000000000000003 /* WaterReminderSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterReminderSettingsView.swift; sourceTree = "<group>"; };
+		5F1500000000000000000004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F1600000000000000000001 /* PlannerCalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerCalendarViewModel.swift; sourceTree = "<group>"; };
+		5F1600000000000000000002 /* WeekCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekCalendarView.swift; sourceTree = "<group>"; };
+		6DBC2BB3E2E0D3025B540A87 /* MoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodView.swift; sourceTree = "<group>"; };
+		74F161D5246FB54F4D481657 /* WelcomeBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBackView.swift; sourceTree = "<group>"; };
+		78E4EA248C5FC4E4798987F3 /* DayMateRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayMateRepository.swift; sourceTree = "<group>"; };
+		7EA002FFC870C945A89DBCF7 /* FocusTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimerView.swift; sourceTree = "<group>"; };
+		87C7F55A6FD7ED449F9BC8FF /* DayMateTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayMateTheme.swift; sourceTree = "<group>"; };
+		89A2D6D9DE67C72746087106 /* NewExamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExamView.swift; sourceTree = "<group>"; };
+		9BAC49276422A6A465A1D519 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		9DA5162DE4C9F203239C06AD /* ExamDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamDetailView.swift; sourceTree = "<group>"; };
+		A3EE1F3FC0C4C10BCE67BB62 /* StudyExam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyExam.swift; sourceTree = "<group>"; };
+		A45BED31899CD5BC2BDB4624 /* BreakChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakChoiceView.swift; sourceTree = "<group>"; };
+		CC86E928F4BED668C04C52C2 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		CF0C4F3C62F55D40E743E2EE /* DayTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTask.swift; sourceTree = "<group>"; };
+		F33A0AEE742B44FC768A90CF /* NewPlanItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlanItemView.swift; sourceTree = "<group>"; };
+		F8EFA4C096F1F4C50ADD26F8 /* DayMateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayMateStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC981767C62EA833B107403F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C406096118AFC436C549C75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				042123308517F8BB1B1487E3 /* DayMateSnapshot.swift */,
+				CF0C4F3C62F55D40E743E2EE /* DayTask.swift */,
+				0704690101511762B084C222 /* Mood.swift */,
+				A3EE1F3FC0C4C10BCE67BB62 /* StudyExam.swift */,
+				5F1500000000000000000001 /* WaterReminderPreferences.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C9D7F1ECE6B1C2C05B9A223 = {
+			isa = PBXGroup;
+			children = (
+				9A582D45D26EB7982CCD38BC /* DayMate */,
+				5ADE8A4128725EB9150C196B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F1254C462F817909F7EFF49 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				26A841283BC6F7BE04A6985C /* DayMateApp.swift */,
+				CC86E928F4BED668C04C52C2 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5ADE8A4128725EB9150C196B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EF91E9CE1841BED4FC15AEB /* DayMate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F1500000000000000000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5F1500000000000000000002 /* WaterReminderService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7C76A6DC62E5D2B7FFBA364F /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				78E4EA248C5FC4E4798987F3 /* DayMateRepository.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		7C7C6998782697A2B1466F98 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5F1600000000000000000001 /* PlannerCalendarViewModel.swift */,
+				4A7D908C3680BD6355C1199C /* CountdownViewModel.swift */,
+				F8EFA4C096F1F4C50ADD26F8 /* DayMateStore.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		89D4812A2885F9E0A98E5993 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F1600000000000000000002 /* WeekCalendarView.swift */,
+				A45BED31899CD5BC2BDB4624 /* BreakChoiceView.swift */,
+				15E596B9CECF15CFF9F89BD7 /* BreakTimerView.swift */,
+				9DA5162DE4C9F203239C06AD /* ExamDetailView.swift */,
+				7EA002FFC870C945A89DBCF7 /* FocusTimerView.swift */,
+				59E58718162C24B8B364CBC8 /* HomeView.swift */,
+				6DBC2BB3E2E0D3025B540A87 /* MoodView.swift */,
+				89A2D6D9DE67C72746087106 /* NewExamView.swift */,
+				F33A0AEE742B44FC768A90CF /* NewPlanItemView.swift */,
+				1D7412D25A823AC92C15E93F /* PlanView.swift */,
+				0DE42D42518F0A029116FA04 /* TodayView.swift */,
+				74F161D5246FB54F4D481657 /* WelcomeBackView.swift */,
+				5F1500000000000000000003 /* WaterReminderSettingsView.swift */,
+				2C548C0E3098A79E00AB28F0 /* DMSectionBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A582D45D26EB7982CCD38BC /* DayMate */ = {
+			isa = PBXGroup;
+			children = (
+				4F1254C462F817909F7EFF49 /* App */,
+				0C406096118AFC436C549C75 /* Models */,
+				7C76A6DC62E5D2B7FFBA364F /* Persistence */,
+				7C7C6998782697A2B1466F98 /* ViewModels */,
+				C04403EFA594005D92DB1E50 /* DesignSystem */,
+				5F1500000000000000000005 /* Services */,
+				5F1500000000000000000004 /* Assets.xcassets */,
+				89D4812A2885F9E0A98E5993 /* Views */,
+			);
+			path = DayMate;
+			sourceTree = "<group>";
+		};
+		C04403EFA594005D92DB1E50 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				9BAC49276422A6A465A1D519 /* Components.swift */,
+				87C7F55A6FD7ED449F9BC8FF /* DayMateTheme.swift */,
+				2765B579F3032F757073C17B /* MascotView.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F762108CA727F0BCD961FC74 /* DayMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3E3883E4B4A66E86595080 /* Build configuration list for PBXNativeTarget "DayMate" */;
+			buildPhases = (
+				CD691BBBE993DA89463DFB43 /* Sources */,
+				EC981767C62EA833B107403F /* Frameworks */,
+				984AA73C6A3518E356174B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayMate;
+			productName = DayMate;
+			productReference = 1EF91E9CE1841BED4FC15AEB /* DayMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16EEAF57BAFC2A41CAB7C99A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F762108CA727F0BCD961FC74 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 4B2380CA9135CE36448D46F6 /* Build configuration list for PBXProject "DayMate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C9D7F1ECE6B1C2C05B9A223;
+			productRefGroup = 5ADE8A4128725EB9150C196B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F762108CA727F0BCD961FC74 /* DayMate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		984AA73C6A3518E356174B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1500000000000000000014 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD691BBBE993DA89463DFB43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8806DD60EFA7C171374738E8 /* DayMateApp.swift in Sources */,
+				25E17EE6BB5C2FCEE17749E8 /* RootView.swift in Sources */,
+				2726E533FC8E9D1DAE88C797 /* Components.swift in Sources */,
+				B040B7B2322E7087A2C674D1 /* DayMateTheme.swift in Sources */,
+				1FDBB34378CEBFBEC18AAA5E /* MascotView.swift in Sources */,
+				2C548C0F3098A79E00AB28F0 /* DMSectionBar.swift in Sources */,
+				FFFAD398EE00E6B5A770A14C /* DayMateSnapshot.swift in Sources */,
+				7307EDD87603DB9A98139933 /* DayTask.swift in Sources */,
+				ED109286D26BFEEB64D3B327 /* Mood.swift in Sources */,
+				FA2508DCCB97D4A2460D04F1 /* StudyExam.swift in Sources */,
+				E786912C817E069651DF956C /* DayMateRepository.swift in Sources */,
+				B8D4B8D473B212EC56991B4D /* CountdownViewModel.swift in Sources */,
+				F92B6F6AC9D28AC0CB6FF5D2 /* DayMateStore.swift in Sources */,
+				37161659C2192D6D1C6F48C4 /* BreakChoiceView.swift in Sources */,
+				72F8A9E91D1F5177C6D16E29 /* BreakTimerView.swift in Sources */,
+				2010D602C7533E209DB219B0 /* ExamDetailView.swift in Sources */,
+				0F6BCA97FA41A569AEA924E8 /* FocusTimerView.swift in Sources */,
+				CA4A263767C4D8CD923A3989 /* HomeView.swift in Sources */,
+				2C04508609E2DCB5CC199643 /* MoodView.swift in Sources */,
+				2E8935115442A7001E95B5CD /* NewExamView.swift in Sources */,
+				4E05EC7981C1E6BF27BB4BAC /* NewPlanItemView.swift in Sources */,
+				6D9214C0DD7D29B348AF9950 /* PlanView.swift in Sources */,
+				6EAA90C92A6064D7345BAFC1 /* TodayView.swift in Sources */,
+				29750AD5396FF91861F17379 /* WelcomeBackView.swift in Sources */,
+				5F1500000000000000000011 /* WaterReminderPreferences.swift in Sources */,
+				5F1500000000000000000012 /* WaterReminderService.swift in Sources */,
+				5F1500000000000000000013 /* WaterReminderSettingsView.swift in Sources */,
+				5F1600000000000000000011 /* PlannerCalendarViewModel.swift in Sources */,
+				5F1600000000000000000012 /* WeekCalendarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A61834CFCE19FE57555A45A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZK3HW7ZJY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DayMate;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foundation.daymate.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA925284BA893A0B7CD58824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE0782D262A66EE774C897C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E87D7CEB36F91952591F2518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZK3HW7ZJY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DayMate;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foundation.daymate.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B2380CA9135CE36448D46F6 /* Build configuration list for PBXProject "DayMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA925284BA893A0B7CD58824 /* Debug */,
+				DE0782D262A66EE774C897C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3E3883E4B4A66E86595080 /* Build configuration list for PBXNativeTarget "DayMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61834CFCE19FE57555A45A0 /* Debug */,
+				E87D7CEB36F91952591F2518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16EEAF57BAFC2A41CAB7C99A /* Project object */;
+}
